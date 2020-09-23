@@ -1,0 +1,13 @@
+/*Conteúdo do rodapé da página*/
+
+.rodape {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.rodape_copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}

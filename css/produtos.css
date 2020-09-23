@@ -1,0 +1,52 @@
+/*Conteúdo principal da página*/
+
+.principal {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.produtos_item {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.produtos_item:hover {
+    transform: scale(1.13);
+    border-color: #C78C19;
+}
+
+.produtos_item:active {
+    border-color: #088C19;
+}
+
+.produtos_item:hover .produtos_item-titulo {
+    font-size: 32px;
+}
+
+.produtos_item-titulo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos_item-descricao {
+    font-size: 18px;
+}
+
+.produtos_item-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}

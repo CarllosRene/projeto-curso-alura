@@ -1,0 +1,44 @@
+.cabecalho {
+    font-size: 30px;
+    text-align: center;
+}
+
+.imagem {
+    width: 100%;
+}
+
+.texto {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.titulo {
+    background: lightgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.paragrafo {
+    color: blue;
+    text-align: center;
+}
+
+.beneficios__titulo {
+    text-align: center;
+}
+
+.beneficios__itens {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    width: 20%;
+    margin-right: 15%;
+
+}
+
+.beneficios__imagem {
+    width: 50%;
+}
