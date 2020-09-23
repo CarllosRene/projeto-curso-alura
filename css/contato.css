@@ -1,0 +1,21 @@
+.principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.formulario {
+    margin: 40px 0;
+}
+
+.formulario_titulo {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.formulario_campo {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    width: 50%;
+}
