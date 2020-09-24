@@ -16,7 +16,7 @@
 
 .formulario_campo {
     display: block;
-    margin: 0 0 20px;
+    margin: 20px 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
@@ -24,4 +24,8 @@
 .formulario_checkbox {
     margin: 20px 0;
     font-size: 20px;
+}
+
+.formulario_botao {
+    display: block;
 }
