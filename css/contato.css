@@ -1,4 +1,5 @@
 .principal {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 940px;
     margin: 0 auto;
 }
@@ -15,7 +16,12 @@
 
 .formulario_campo {
     display: block;
-    margin-bottom: 10px;
+    margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.formulario_checkbox {
+    margin: 20px 0;
+    font-size: 20px;
 }
