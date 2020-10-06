@@ -1,32 +1,45 @@
-.cabecalho {
-    font-size: 30px;
-    text-align: center;
-}
-
-.imagem {
+.banner {
     width: 100%;
 }
 
 .texto {
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
-.titulo {
-    background: lightgray;
+.titulo_principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+
+    /*Limpa o float do título*/
+    clear: left;
 }
 
-.paragrafo {
-    color: blue;
-    text-align: center;
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
-.beneficios__titulo {
-    text-align: center;
+.principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.secao_principal p {
+    margin: 0 0 1em;
+    text-align: ;
+}
+
+.secao_principal strong {
+    font-weight: bold;
+}
+
+.secao_principal em {
+    font-style: italic;
 }
 
 .beneficios__itens {
@@ -40,5 +53,5 @@
 }
 
 .beneficios__imagem {
-    width: 50%;
+    width: 60%;
 }
